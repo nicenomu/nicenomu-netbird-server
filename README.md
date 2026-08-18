@@ -1,4 +1,4 @@
-# biseo-netbird-infra
+# nicenomu-netbird-server
 
 사내 NetBird(셀프호스팅 VPN) 관리서버 구성. 다른 PC에 처음부터 재구축할 때 이 저장소만 있으면 된다.
 
