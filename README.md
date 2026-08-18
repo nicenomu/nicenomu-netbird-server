@@ -5,6 +5,7 @@
 ## 배경
 
 > **왜 이 구조를 골랐는지**는 [docs/security-model.md](docs/security-model.md)에 정리했다.
+> **Peer·Network·Group·Policy가 뭔지 모르겠다면** [docs/concepts.md](docs/concepts.md)부터 읽을 것.
 > 설치 절차만 필요하면 아래를 읽으면 된다.
 
 
