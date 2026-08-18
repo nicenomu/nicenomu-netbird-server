@@ -4,6 +4,10 @@
 
 ## 배경
 
+> **왜 이 구조를 골랐는지**는 [docs/security-model.md](docs/security-model.md)에 정리했다.
+> 설치 절차만 필요하면 아래를 읽으면 된다.
+
+
 443 외 공인 포트를 모두 닫는 보안 정책에 따라, drive의 SFTP와 내부 관리 도구(Databasus 등)를
 공인망에 노출하지 않고 VPN 뒤에서만 접근하도록 전환하는 것이 목적이다.
 
