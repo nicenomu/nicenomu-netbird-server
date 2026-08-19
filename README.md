@@ -2,12 +2,17 @@
 
 사내 NetBird(셀프호스팅 VPN) 관리서버 구성. 다른 PC에 처음부터 재구축할 때 이 저장소만 있으면 된다.
 
+## 문서 안내
+
+> | 무엇을 원하는가 | 문서 |
+> |---|---|
+> | 매일 운영·장애 대응 | [docs/operations.md](docs/operations.md) |
+> | 직원에게 배포할 설치 안내 | [docs/user-setup-windows.md](docs/user-setup-windows.md) |
+> | Peer·Network·Group·Policy 개념 | [docs/concepts.md](docs/concepts.md) |
+> | 왜 이 구조를 골랐는가 | [docs/security-model.md](docs/security-model.md) |
+> | 처음부터 재구축 | 아래 본문 |
+
 ## 배경
-
-> **왜 이 구조를 골랐는지**는 [docs/security-model.md](docs/security-model.md)에 정리했다.
-> **Peer·Network·Group·Policy가 뭔지 모르겠다면** [docs/concepts.md](docs/concepts.md)부터 읽을 것.
-> 설치 절차만 필요하면 아래를 읽으면 된다.
-
 
 443 외 공인 포트를 모두 닫는 보안 정책에 따라, drive의 SFTP와 내부 관리 도구(Databasus 등)를
 공인망에 노출하지 않고 VPN 뒤에서만 접근하도록 전환하는 것이 목적이다.
