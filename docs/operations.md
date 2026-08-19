@@ -13,6 +13,16 @@
 | Keycloak (stg) | `https://auth.biseo.kr/auth` realm `biseo` | 계정 관리 |
 | drive SFTP | `10.10.2.233:38592` | VPN 연결 후에만 접근 가능 |
 
+### 현재 접근 정책
+
+```
+office-staff  →  stg-subnet(10.10.2.0/24)  :  TCP 38592 만
+```
+
+사무원은 **SFTP 포트 하나만** 열려 있다. stg 대역의 DB·관리 포트에는 접근할 수 없다.
+새 서비스를 열어줄 때는 이 정책에 포트를 추가하거나 별도 정책을 만들 것.
+**`ALL`로 되돌리지 말 것.**
+
 ---
 
 ## 일상 운영
@@ -220,5 +230,4 @@ python3   # sqlite3로 조회
 
 - **DDNS 미설정** — 공인 IP가 바뀌면 전원 접속 불가 + 인증서 갱신 실패
 - **라우팅 peer 단일** — `swarm-manager` 재부팅 시 전원 접속 불가
-- **정책 포트 범위가 ALL** — SFTP(38592)만 허용하도록 좁힐 것
 - **`netbird` Keycloak 클라이언트가 realm JSON에 미반영** — Keycloak DB 재생성 시 소실
