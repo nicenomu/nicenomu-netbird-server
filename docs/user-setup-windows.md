@@ -62,13 +62,16 @@ Your account is pending approval from an administrator.
 
 ## 5단계 — 연결 확인
 
-시작 메뉴에서 `cmd`를 검색해 명령 프롬프트를 열고 아래를 입력합니다.
+시작 메뉴에서 `PowerShell`을 검색해 실행하고 아래를 입력합니다.
 
-```
-ping 10.10.2.233
+```powershell
+Test-NetConnection -ComputerName 10.10.2.233 -Port 38592
 ```
 
-응답이 오면 정상입니다. 응답이 없으면 아래 **문제가 생겼을 때**를 봐주세요.
+결과에 `TcpTestSucceeded : True` 가 보이면 정상입니다.
+
+> `ping 10.10.2.233` 은 **정상이어도 실패합니다.** 보안상 필요한 포트만 열어두었기
+> 때문입니다. ping 결과로 판단하지 마세요.
 
 ---
 
@@ -129,9 +132,10 @@ netbird status
 3. 그래도 안 되면 담당자에게 아래 정보와 함께 문의
 
 ```
-명령 프롬프트에서 실행한 결과를 복사해서 전달
-  netbird status
-  ping 10.10.2.233
+아래 두 명령의 결과를 복사해서 전달
+
+  (명령 프롬프트)  netbird status
+  (PowerShell)     Test-NetConnection -ComputerName 10.10.2.233 -Port 38592
 ```
 
 ---
