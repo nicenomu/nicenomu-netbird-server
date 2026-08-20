@@ -1,0 +1,48 @@
+[
+    {
+        "created_at": "2026-08-15T02:47:46.808110874Z",
+        "created_by": "CiRlNTAwMmRjZi0wNDZmLTQ4N2ItOTIxZS04YjM2ZDkxZWY3MzgSBWxvY2Fs",
+        "domain": "netbird.selfhosted",
+        "domain_category": "private",
+        "id": "d9vt6kl0k3rs739sc82g",
+        "onboarding": {
+            "onboarding_flow_pending": false,
+            "signup_form_pending": true
+        },
+        "settings": {
+            "agent_network_only": false,
+            "auto_update_always": false,
+            "auto_update_version": "disabled",
+            "dns_domain": "",
+            "embedded_idp_enabled": true,
+            "extra": {
+                "network_traffic_logs_enabled": false,
+                "network_traffic_logs_groups": null,
+                "network_traffic_packet_counter_enabled": false,
+                "peer_approval_enabled": false,
+                "user_approval_required": true
+            },
+            "groups_propagation_enabled": true,
+            "ipv6_enabled_groups": [
+                "d9vt6kl0k3rs739sc83g"
+            ],
+            "jwt_allow_groups": [],
+            "jwt_groups_claim_name": "",
+            "jwt_groups_enabled": false,
+            "lazy_connection_enabled": true,
+            "local_auth_disabled": false,
+            "local_mfa_enabled": false,
+            "metrics_push_enabled": false,
+            "network_range": "100.105.0.0/16",
+            "network_range_v6": "fd37:2798:eb7c:5563::/64",
+            "peer_expose_enabled": false,
+            "peer_expose_groups": null,
+            "peer_inactivity_expiration": 600,
+            "peer_inactivity_expiration_enabled": false,
+            "peer_login_expiration": 86400,
+            "peer_login_expiration_enabled": true,
+            "regular_users_view_blocked": true,
+            "routing_peer_dns_resolution_enabled": true
+        }
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "description": "\uc2a4\ud14c\uc774\uc9c0 \ud658\uacbd \ub0b4\ubd80\ub9dd (docker swarm)",
+        "id": "d9vtgkd0k3rs739sca90",
+        "name": "biseo-stg",
+        "policies": [
+            "d9vtgkd0k3rs739scagg"
+        ],
+        "resources": [
+            "d9vtgkd0k3rs739scab0"
+        ],
+        "routers": [
+            "d9vtirl0k3rs739scbl0"
+        ],
+        "routing_peers_count": 1
+    }
+]

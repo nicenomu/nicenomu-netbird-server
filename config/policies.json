@@ -1,0 +1,70 @@
+[
+    {
+        "description": "\uc0ac\ubb34\uc6d0 \uc708\ub3c4\uc6b0 PC \u2192 stg \ub4dc\ub77c\uc774\ube0c SFTP(10.10.2.233:38592) \uc811\uc18d\uc6a9. \uac19\uc740 \ub300\uc5ed\uc758 DB\u00b7\uad00\ub9ac \ud3ec\ud2b8\ub294 \uc5f4\uc9c0 \ub9d0 \uac83.",
+        "enabled": true,
+        "id": "d9vtgkd0k3rs739scagg",
+        "name": "office-sftp-access",
+        "rules": [
+            {
+                "action": "accept",
+                "bidirectional": false,
+                "description": "\uc0ac\ubb34\uc6d0 \uc708\ub3c4\uc6b0 PC \u2192 stg \ub4dc\ub77c\uc774\ube0c SFTP(10.10.2.233:38592) \uc811\uc18d\uc6a9. \uac19\uc740 \ub300\uc5ed\uc758 DB\u00b7\uad00\ub9ac \ud3ec\ud2b8\ub294 \uc5f4\uc9c0 \ub9d0 \uac83.",
+                "destinationResource": {
+                    "id": "d9vtgkd0k3rs739scab0",
+                    "type": "subnet"
+                },
+                "destinations": null,
+                "enabled": true,
+                "id": "d9vtgkd0k3rs739scagg",
+                "name": "office-sftp-access",
+                "ports": [
+                    "38592"
+                ],
+                "protocol": "tcp",
+                "sources": [
+                    {
+                        "id": "da24ut50k3rs739sgf3g",
+                        "name": "office-staff",
+                        "peers_count": 2,
+                        "resources_count": 0
+                    }
+                ]
+            }
+        ],
+        "source_posture_checks": []
+    },
+    {
+        "description": "\uc7a5\uc560 \uc9c4\ub2e8\uc6a9 ping \ud5c8\uc6a9. \uc5c6\uc73c\uba74 \ub77c\uc6b0\ud305 peer \ub3c4\ub2ec \ud655\uc778\uc774 \ub9c9\ud600 VPN \uace0\uc7a5\uc73c\ub85c \uc624\uc9c4\ud558\uae30 \uc26c\uc6c0. ICMP\ub9cc \uc720\uc9c0\ud558\uace0 \ub113\ud788\uc9c0 \ub9d0 \uac83.",
+        "enabled": true,
+        "id": "d9vtgkd0k3rs739scai0",
+        "name": "office-diagnostics",
+        "rules": [
+            {
+                "action": "accept",
+                "bidirectional": true,
+                "description": "\uc7a5\uc560 \uc9c4\ub2e8\uc6a9 ping \ud5c8\uc6a9. \uc5c6\uc73c\uba74 \ub77c\uc6b0\ud305 peer \ub3c4\ub2ec \ud655\uc778\uc774 \ub9c9\ud600 VPN \uace0\uc7a5\uc73c\ub85c \uc624\uc9c4\ud558\uae30 \uc26c\uc6c0. ICMP\ub9cc \uc720\uc9c0\ud558\uace0 \ub113\ud788\uc9c0 \ub9d0 \uac83.",
+                "destinations": [
+                    {
+                        "id": "d9vtgkd0k3rs739scaeg",
+                        "name": "Routing Peers",
+                        "peers_count": 1,
+                        "resources_count": 0
+                    }
+                ],
+                "enabled": true,
+                "id": "d9vtgkd0k3rs739scai0",
+                "name": "office-diagnostics",
+                "protocol": "icmp",
+                "sources": [
+                    {
+                        "id": "da24ut50k3rs739sgf3g",
+                        "name": "office-staff",
+                        "peers_count": 2,
+                        "resources_count": 0
+                    }
+                ]
+            }
+        ],
+        "source_posture_checks": []
+    }
+]

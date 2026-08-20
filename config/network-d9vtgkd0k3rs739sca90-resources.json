@@ -1,0 +1,11 @@
+[
+    {
+        "address": "10.10.2.0/24",
+        "description": "stg \uc804\uccb4 \ub300\uc5ed - drive SFTP(38592), databasus \ub4f1",
+        "enabled": true,
+        "groups": null,
+        "id": "d9vtgkd0k3rs739scab0",
+        "name": "stg-subnet",
+        "type": "subnet"
+    }
+]

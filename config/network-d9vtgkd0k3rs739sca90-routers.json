@@ -1,0 +1,10 @@
+[
+    {
+        "enabled": true,
+        "id": "d9vtirl0k3rs739scbl0",
+        "masquerade": true,
+        "metric": 9999,
+        "peer": "d9vtig50k3rs739scbeg",
+        "peer_groups": null
+    }
+]

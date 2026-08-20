@@ -1,0 +1,65 @@
+[
+    {
+        "id": "d9vt6kl0k3rs739sc83g",
+        "issued": "api",
+        "name": "All",
+        "peers": [
+            {
+                "id": "d9vtig50k3rs739scbeg",
+                "name": "swarm-manager"
+            },
+            {
+                "id": "da280gt0k3rs739sgrn0",
+                "name": "DESKTOP-JAMHOBH"
+            },
+            {
+                "id": "da2kqfl0k3rs739siib0",
+                "name": "DESKTOP-5VJ9MN6"
+            }
+        ],
+        "peers_count": 3,
+        "resources": null,
+        "resources_count": 0
+    },
+    {
+        "id": "d9vtgkd0k3rs739scaeg",
+        "issued": "api",
+        "name": "Routing Peers",
+        "peers": [
+            {
+                "id": "d9vtig50k3rs739scbeg",
+                "name": "swarm-manager"
+            }
+        ],
+        "peers_count": 1,
+        "resources": null,
+        "resources_count": 0
+    },
+    {
+        "id": "da24ut50k3rs739sgf3g",
+        "issued": "api",
+        "name": "office-staff",
+        "peers": [
+            {
+                "id": "da280gt0k3rs739sgrn0",
+                "name": "DESKTOP-JAMHOBH"
+            },
+            {
+                "id": "da2kqfl0k3rs739siib0",
+                "name": "DESKTOP-5VJ9MN6"
+            }
+        ],
+        "peers_count": 2,
+        "resources": null,
+        "resources_count": 0
+    },
+    {
+        "id": "da39ned0k3rs739sldd0",
+        "issued": "api",
+        "name": "backup-servers",
+        "peers": null,
+        "peers_count": 0,
+        "resources": null,
+        "resources_count": 0
+    }
+]
