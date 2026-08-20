@@ -15,9 +15,13 @@
             {
                 "id": "da2kqfl0k3rs739siib0",
                 "name": "DESKTOP-5VJ9MN6"
+            },
+            {
+                "id": "da3ag7l0k3rs739slj50",
+                "name": "biseo-backup"
             }
         ],
-        "peers_count": 3,
+        "peers_count": 4,
         "resources": null,
         "resources_count": 0
     },
@@ -57,8 +61,13 @@
         "id": "da39ned0k3rs739sldd0",
         "issued": "api",
         "name": "backup-servers",
-        "peers": null,
-        "peers_count": 0,
+        "peers": [
+            {
+                "id": "da3ag7l0k3rs739slj50",
+                "name": "biseo-backup"
+            }
+        ],
+        "peers_count": 1,
         "resources": null,
         "resources_count": 0
     }

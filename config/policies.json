@@ -66,5 +66,42 @@
             }
         ],
         "source_posture_checks": []
+    },
+    {
+        "description": "\ubc31\uc5c5\uc11c\ubc84 \u2192 stg PostgreSQL \uc811\uc18d\uc6a9. Databasus\uac00 stg DB 5\uac1c\ub97c \ubc31\uc5c5\ud55c\ub2e4. DB \ud3ec\ud2b8\ub9cc \uc5f4\uace0 \ub113\ud788\uc9c0 \ub9d0 \uac83.",
+        "enabled": true,
+        "id": "da3a91l0k3rs739slihg",
+        "name": "backup-db-access",
+        "rules": [
+            {
+                "action": "accept",
+                "bidirectional": false,
+                "description": "\ubc31\uc5c5\uc11c\ubc84 \u2192 stg DB \ud3ec\ud2b8",
+                "destinationResource": {
+                    "id": "d9vtgkd0k3rs739scab0",
+                    "type": "subnet"
+                },
+                "destinations": null,
+                "enabled": true,
+                "id": "da3a91l0k3rs739slihg",
+                "name": "backup-db-access",
+                "ports": [
+                    "22993",
+                    "37369",
+                    "53247",
+                    "55008"
+                ],
+                "protocol": "tcp",
+                "sources": [
+                    {
+                        "id": "da39ned0k3rs739sldd0",
+                        "name": "backup-servers",
+                        "peers_count": 1,
+                        "resources_count": 0
+                    }
+                ]
+            }
+        ],
+        "source_posture_checks": null
     }
 ]

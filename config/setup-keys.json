@@ -1,1 +1,21 @@
-[]
+[
+    {
+        "allow_extra_dns_labels": false,
+        "auto_groups": [
+            "da39ned0k3rs739sldd0"
+        ],
+        "ephemeral": false,
+        "expires": "2027-08-20T06:53:45.137486376Z",
+        "id": "da3a8ud0k3rs739sligg",
+        "key": "F7E14****",
+        "last_used": "2026-08-20T07:09:18.407225308Z",
+        "name": "backup-server",
+        "revoked": false,
+        "state": "valid",
+        "type": "reusable",
+        "updated_at": "2026-08-20T06:53:45.137492518Z",
+        "usage_limit": 0,
+        "used_times": 1,
+        "valid": true
+    }
+]
