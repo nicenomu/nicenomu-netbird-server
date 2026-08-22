@@ -103,5 +103,42 @@
             }
         ],
         "source_posture_checks": null
+    },
+    {
+        "description": "\uac1c\ubc1c\uc790\u00b7\uad00\ub9ac\uc790 \u2192 Databasus \ubc31\uc5c5 \uad00\ub9ac \ucf58\uc194(4005). \uc6f9 UI\ub9cc \uc5f4\uace0 SSH(22)\ub294 \uc5f4\uc9c0 \ub9d0 \uac83.",
+        "enabled": true,
+        "id": "da4nnrt0k3rs739ss0ug",
+        "name": "developers-backup-console",
+        "rules": [
+            {
+                "action": "accept",
+                "bidirectional": false,
+                "description": "\ubc31\uc5c5 \ucf58\uc194 \uc6f9 UI",
+                "destinations": [
+                    {
+                        "id": "da39ned0k3rs739sldd0",
+                        "name": "backup-servers",
+                        "peers_count": 1,
+                        "resources_count": 0
+                    }
+                ],
+                "enabled": true,
+                "id": "da4nnrt0k3rs739ss0ug",
+                "name": "developers-backup-console",
+                "ports": [
+                    "4005"
+                ],
+                "protocol": "tcp",
+                "sources": [
+                    {
+                        "id": "da4nnkl0k3rs739ss0q0",
+                        "name": "developers",
+                        "peers_count": 0,
+                        "resources_count": 0
+                    }
+                ]
+            }
+        ],
+        "source_posture_checks": null
     }
 ]

@@ -19,9 +19,13 @@
             {
                 "id": "da3ag7l0k3rs739slj50",
                 "name": "biseo-backup"
+            },
+            {
+                "id": "da3ut1d0k3rs739so250",
+                "name": "production.biseo.kr"
             }
         ],
-        "peers_count": 4,
+        "peers_count": 5,
         "resources": null,
         "resources_count": 0
     },
@@ -68,6 +72,15 @@
             }
         ],
         "peers_count": 1,
+        "resources": null,
+        "resources_count": 0
+    },
+    {
+        "id": "da4nnkl0k3rs739ss0q0",
+        "issued": "api",
+        "name": "developers",
+        "peers": null,
+        "peers_count": 0,
         "resources": null,
         "resources_count": 0
     }

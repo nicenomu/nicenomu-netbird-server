@@ -17,5 +17,41 @@
         "usage_limit": 0,
         "used_times": 1,
         "valid": true
+    },
+    {
+        "allow_extra_dns_labels": false,
+        "auto_groups": [],
+        "ephemeral": false,
+        "expires": "2026-08-28T04:29:16.689260611Z",
+        "id": "da3t8750k3rs739snoe0",
+        "key": "C6EA7****",
+        "last_used": "2026-08-21T06:21:57.130080925Z",
+        "name": "opnsense.biseo.kr",
+        "revoked": false,
+        "state": "overused",
+        "type": "one-off",
+        "updated_at": "2026-08-21T04:29:16.689267749Z",
+        "usage_limit": 1,
+        "used_times": 1,
+        "valid": false
+    },
+    {
+        "allow_extra_dns_labels": false,
+        "auto_groups": [
+            "da4nnkl0k3rs739ss0q0"
+        ],
+        "ephemeral": false,
+        "expires": "2027-08-22T10:37:47.546944944Z",
+        "id": "da4nnut0k3rs739ss100",
+        "key": "C3C46****",
+        "last_used": "0001-01-01T00:00:00Z",
+        "name": "developers",
+        "revoked": false,
+        "state": "valid",
+        "type": "reusable",
+        "updated_at": "2026-08-22T10:37:47.546951091Z",
+        "usage_limit": 0,
+        "used_times": 0,
+        "valid": true
     }
 ]
