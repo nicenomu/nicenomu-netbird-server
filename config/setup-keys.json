@@ -44,14 +44,14 @@
         "expires": "2027-08-22T10:37:47.546944944Z",
         "id": "da4nnut0k3rs739ss100",
         "key": "C3C46****",
-        "last_used": "0001-01-01T00:00:00Z",
+        "last_used": "2026-08-22T10:55:15.605159758Z",
         "name": "developers",
         "revoked": false,
         "state": "valid",
         "type": "reusable",
         "updated_at": "2026-08-22T10:37:47.546951091Z",
         "usage_limit": 0,
-        "used_times": 0,
+        "used_times": 1,
         "valid": true
     }
 ]

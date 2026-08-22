@@ -15,7 +15,7 @@
             {
                 "id": "d9vt6kl0k3rs739sc83g",
                 "name": "All",
-                "peers_count": 5,
+                "peers_count": 6,
                 "resources_count": 0
             },
             {
@@ -71,7 +71,7 @@
             {
                 "id": "d9vt6kl0k3rs739sc83g",
                 "name": "All",
-                "peers_count": 5,
+                "peers_count": 6,
                 "resources_count": 0
             },
             {
@@ -127,12 +127,18 @@
             {
                 "id": "d9vt6kl0k3rs739sc83g",
                 "name": "All",
-                "peers_count": 5,
+                "peers_count": 6,
                 "resources_count": 0
             },
             {
                 "id": "da24ut50k3rs739sgf3g",
                 "name": "office-staff",
+                "peers_count": 2,
+                "resources_count": 0
+            },
+            {
+                "id": "da4nnkl0k3rs739ss0q0",
+                "name": "developers",
                 "peers_count": 2,
                 "resources_count": 0
             }
@@ -170,6 +176,62 @@
     {
         "accessible_peers_count": 0,
         "approval_required": false,
+        "city_name": "",
+        "connected": true,
+        "connection_ip": "10.20.0.1",
+        "country_code": "",
+        "created_at": "2026-08-22T10:55:15.602406556Z",
+        "dns_label": "dunchis-macbook-pro-16.netbird.selfhosted",
+        "ephemeral": false,
+        "extra_dns_labels": [],
+        "geoname_id": 0,
+        "groups": [
+            {
+                "id": "d9vt6kl0k3rs739sc83g",
+                "name": "All",
+                "peers_count": 6,
+                "resources_count": 0
+            },
+            {
+                "id": "da4nnkl0k3rs739ss0q0",
+                "name": "developers",
+                "peers_count": 2,
+                "resources_count": 0
+            }
+        ],
+        "hostname": "dunchis-MacBook-Pro-16.local",
+        "id": "da4o04t0k3rs739ss2t0",
+        "inactivity_expiration_enabled": false,
+        "ip": "100.105.58.192",
+        "ipv6": "fd37:2798:eb7c:5563:910:55a9:f03a:a548",
+        "kernel_version": "25.6.0",
+        "last_login": "2026-08-22T10:55:15.602406556Z",
+        "last_seen": "2026-08-22T10:55:16Z",
+        "local_flags": {
+            "block_inbound": false,
+            "block_lan_access": false,
+            "disable_client_routes": false,
+            "disable_dns": false,
+            "disable_firewall": false,
+            "disable_server_routes": false,
+            "lazy_connection_enabled": false,
+            "rosenpass_enabled": false,
+            "rosenpass_permissive": false,
+            "server_ssh_allowed": false
+        },
+        "login_expiration_enabled": false,
+        "login_expired": false,
+        "name": "dunchis-MacBook-Pro-16.local",
+        "os": "Darwin 26.6.2",
+        "serial_number": "G1VQG0VJFP",
+        "ssh_enabled": false,
+        "ui_version": "",
+        "user_id": "",
+        "version": "0.77.1"
+    },
+    {
+        "accessible_peers_count": 0,
+        "approval_required": false,
         "city_name": "Yeongdeungpo-gu",
         "connected": true,
         "connection_ip": "220.118.187.179",
@@ -183,7 +245,7 @@
             {
                 "id": "d9vt6kl0k3rs739sc83g",
                 "name": "All",
-                "peers_count": 5,
+                "peers_count": 6,
                 "resources_count": 0
             }
         ],
@@ -233,7 +295,7 @@
             {
                 "id": "d9vt6kl0k3rs739sc83g",
                 "name": "All",
-                "peers_count": 5,
+                "peers_count": 6,
                 "resources_count": 0
             },
             {
